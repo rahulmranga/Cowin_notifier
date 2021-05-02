@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
+######This is the python script ive used to get information########
 
 import pandas as pd
 import requests
@@ -103,7 +98,7 @@ def send_email_available(df,email,name,level):
     smtp_server = "smtp.gmail.com"
     sender_email = "cowinvaccinedev@gmail.com"  # Enter your address
     receiver_email = email  # Enter receiver address
-    password = "cowin@2021"
+    password = ""
     context = ssl.create_default_context()
 
     
@@ -136,7 +131,7 @@ def email_not_available(email,name):
     smtp_server = "smtp.gmail.com"
     sender_email = "cowinvaccinedev@gmail.com"  # Enter your address
     receiver_email = email  # Enter receiver address
-    password = "cowin@2021"
+    password = ""
     context = ssl.create_default_context()
     
         
